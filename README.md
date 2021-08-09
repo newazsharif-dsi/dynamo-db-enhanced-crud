@@ -2,9 +2,6 @@
 
 A simple application with spring boot and aws dynamoDB using localstack. 
 
-## Getting Started
-This app is for learning purpose only.
-
 ### Dependencies
 
 * JDK 1.11 (can be run on jdk 1.8 too)
