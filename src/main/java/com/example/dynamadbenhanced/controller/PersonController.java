@@ -38,7 +38,7 @@ public class PersonController {
     }
 
     @GetMapping("/get/person/{id}/{age}")
-    public ResponseEntity<Person> getSinglePerson(@PathVariable(value = "id") String personId, @PathVariable(value = "age") Integer age ) {
+    public ResponseEntity<Person> getSinglePerson(@PathVariable(value = "id") String personId, @PathVariable(value = "age") Integer age) {
         return ResponseEntity.ok().body(personService.getPersonByCompositePrimaryKey(personId, age));
     }
 
